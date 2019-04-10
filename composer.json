@@ -1,0 +1,24 @@
+{
+    "name": "daanvanberkel/ifu",
+    "description": "I Fucked Up Command For Artisan",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Daan van Berkel",
+            "email": "info@daanvanberkel.nl"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Daanvanberkel\\Ifu\\IfuServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Daanvanberkel\\Ifu\\": "src/"
+        }
+    }
+}
